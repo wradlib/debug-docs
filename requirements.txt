@@ -1,1 +1,8 @@
 deprecation
+nbsphinx
+ipykernel
+nbconvert
+pandoc
+sphinxcontrib-bibtex
+git
+numpy
