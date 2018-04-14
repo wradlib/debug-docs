@@ -68,7 +68,7 @@ if on_rtd:
     # correspond to the wradlib and wradlib-docs tag
     rtd_version = os.environ.get('READTHEDOCS_VERSION', 'latest')
     print("RTD Version: {}".format(rtd_version))
-    if rtd_version == 'latest':
+    if rtd_version == 'test':
         wradlib_notebooks_branch = 'devel'
         wradlib_branch_or_tag = 'master'
     else:
