@@ -78,8 +78,8 @@ if on_rtd:
         wradlib_notebooks_branch = tag
         wradlib_branch_or_tag = tag
     else:
-        wradlib_notebooks_branch = rtd_version
-        wradlib_branch_or_tag = rtd_version
+        wradlib_notebooks_branch = 'devel'
+        wradlib_branch_or_tag = 'master'
 
     repourl = 'https://github.com/wradlib/wradlib-notebooks.git'
     reponame = 'wradlib-notebooks'
